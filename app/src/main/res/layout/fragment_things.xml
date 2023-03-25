@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Things">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/white"
+            android:enabled="false"
+            app:icon="@drawable/baseline_view_comfy_24"
+            android:gravity="center_horizontal"
+            app:iconGravity="top"
+            app:iconSize="160dp"
+            android:layout_height="170dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No Things \n"
+            android:gravity="center_horizontal"
+            android:textSize="30dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="It looks like we didn't discover any devices \n"
+            android:gravity="center_horizontal"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Try an Option below \n"
+            android:gravity="center_horizontal"
+            android:textSize="20dp"
+            />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="?android:attr/listDivider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginVertical="5dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="56dp"
+                android:layout_height="60dp"
+                app:icon="@drawable/baseline_search_24"
+                android:layout_marginRight="30dp"
+                android:backgroundTint="@color/blue"
+                android:text="s"
+                app:cornerRadius="50dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Run Discover"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textSize="22sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginVertical="5dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="56dp"
+                android:layout_height="60dp"
+                android:backgroundTint="@color/blue"
+                app:icon="@drawable/baseline_add_24"
+                android:layout_marginRight="30dp"
+                android:text="s"
+                app:cornerRadius="50dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Add a cloud account"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textSize="22sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginVertical="5dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="56dp"
+                android:layout_height="60dp"
+                app:icon="@drawable/baseline_view_module_24"
+                android:backgroundTint="@color/blue"
+                android:layout_marginRight="30dp"
+                android:text="s"
+                app:cornerRadius="50dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="View our supported devices"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textSize="22sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginVertical="5dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="56dp"
+                android:layout_height="60dp"
+                app:icon="@drawable/baseline_email_24"
+                android:backgroundTint="@color/blue"
+                android:layout_marginRight="30dp"
+                android:text="s"
+                app:cornerRadius="50dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Contact Support"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textSize="22sp"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</FrameLayout>
